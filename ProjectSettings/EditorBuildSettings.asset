@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Common/Scenes/Loading.unity
+    guid: 6182702b890fda247b5790780a69de27
+  - enabled: 1
+    path: Assets/Game/Common/Scenes/EpisodesMenu.unity
+    guid: fa064432ffde1e24a8e3f93bce953772
+  - enabled: 1
+    path: Assets/Game/Episodes/Episode00/scenes/Episode00_Main.unity
+    guid: 251f56d109373b04e96eba017975c2eb
