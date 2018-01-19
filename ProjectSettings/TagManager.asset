@@ -4,13 +4,22 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - Laser
-  - PoTargetTag
+  - entry
+  - exit
+  - water
+  - waiting
+  - rope
+  - pa
+  - po1
+  - po2
+  - po3
+  - cu
+  - vc
+  - evm
+  - vvpat
   - EntryDoorTargetTag
+  - PoTargetTag
   - WaterTargetTag
-  - PO
-  - EntryDoorTag
   layers:
   - Default
   - TransparentFX
