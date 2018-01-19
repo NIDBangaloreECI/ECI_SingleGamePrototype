@@ -31,7 +31,7 @@ namespace com.nidb.ecigame.ui
 		private void RefreshMenu()
 		{
 			float btnX = 8;
-			float btnY = -150;
+			float btnY = _yOffset;
 			for(int i = 0; i < _episodesDatabase.pEpisodeCount; ++i)
 			{
 				GameObject btnObj = (GameObject)GameObject.Instantiate(_menuButtonTemplate.gameObject);
