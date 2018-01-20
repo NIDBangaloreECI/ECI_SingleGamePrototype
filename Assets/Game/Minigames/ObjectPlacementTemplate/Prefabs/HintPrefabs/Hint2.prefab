@@ -60,7 +60,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "*2  You, as a Presiding Officer shall be seated along the exit lane.\r\n"
+  m_Text: "*2  The Presiding Officer is the one who is seated along the exit lane.\r\n"
 --- !u!222 &222979177404400754
 CanvasRenderer:
   m_ObjectHideFlags: 1
