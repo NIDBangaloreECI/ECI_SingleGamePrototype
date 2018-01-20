@@ -15,12 +15,12 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (objArray [1].GetComponent<TargetScript> ().GetFlag() == 1) {
+/*		if (objArray [1].GetComponent<TargetScript> ().GetFlag() == 1) {
 			if (tagArray [1] == tagArray [0]) {
 				objPos = objArray [1].transform.position;
 				objArray [0].transform.position = objPos;
 			}
-		}
+		}*/
 	}
 
 	public void SetTagArray(int i,string objTag)
