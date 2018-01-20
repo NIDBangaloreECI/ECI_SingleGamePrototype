@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour {
 	string[] tagArray =new string[2];
 	Vector2 objPos=new Vector2();
 	GameObject[] objArray=new GameObject[2];
+
+    public RectTransform ScrollViewRoot;
 	// Use this for initialization
 	void Start () {
 		

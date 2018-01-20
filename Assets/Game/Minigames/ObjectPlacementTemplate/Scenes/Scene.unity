@@ -253,7 +253,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0.96685475, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -620,8 +620,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000049352995, y: 212.89993}
-  m_SizeDelta: {x: 0, y: 554.6}
+  m_AnchoredPosition: {x: 0.000049352995, y: 0}
+  m_SizeDelta: {x: 18.8, y: 486.4}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &250932302
 MonoBehaviour:
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 250932300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faffe6a23e133114a9c92e31c956661f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f79d0098edfa00478d21aa1a9dc3870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Hintprefab:
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 198392730}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.96685475
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3829,8 +3829,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1204159890}
   m_HandleRect: {fileID: 1204159889}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.61611897
+  m_Value: 1
+  m_Size: 0.7025082
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4138,8 +4138,8 @@ RectTransform:
   m_Father: {fileID: 1733394013}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.61611897}
+  m_AnchorMin: {x: 0, y: 0.2974918}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4560,6 +4560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dbadc544c8899f47bdfcf2fd7a98233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScrollViewRoot: {fileID: 632826366}
 --- !u!4 &1327623833
 Transform:
   m_ObjectHideFlags: 0
@@ -4849,7 +4850,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1216387260865114, guid: 8f3ce738f72bbe5478ce301b2cd87902, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f3ce738f72bbe5478ce301b2cd87902, type: 2}
@@ -5946,7 +5947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ed85b67c7dad9d48bb768a2f9733cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 350032885}
 --- !u!4 &1786326839
 Transform:
   m_ObjectHideFlags: 0
