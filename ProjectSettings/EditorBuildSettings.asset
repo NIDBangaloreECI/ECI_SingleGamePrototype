@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Episodes/Episode00/Scenes/Episode00_Main.unity
     guid: 251f56d109373b04e96eba017975c2eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Game/Minigames/ObjectPlacementTemplate/Scenes/ObjPlacementScene.unity
     guid: 8697ff2649ff0f94c852ca21ac707282
+  - enabled: 1
+    path: Assets/Game/Minigames/ObjectPlacementGameV2/Scenes/ObjPlacementGameScene.unity
+    guid: 726b40dbfad52ff4da30e33c4ffef1ac
