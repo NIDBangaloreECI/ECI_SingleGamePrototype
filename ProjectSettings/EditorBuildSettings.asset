@@ -5,23 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Game/Common/Scenes/Loading.unity
     guid: 6182702b890fda247b5790780a69de27
-  - enabled: 0
+  - enabled: 1
     path: Assets/Game/Common/Scenes/EpisodesMenu.unity
     guid: fa064432ffde1e24a8e3f93bce953772
-<<<<<<< HEAD
-  - enabled: 0
-    path: Assets/Game/Episodes/Episode00/scenes/Episode00_Main.unity
-    guid: 251f56d109373b04e96eba017975c2eb
-  - enabled: 1
-    path: Assets/Game/Minigames/ObjectPlacementTemplate/Scenes/Scene.unity
-=======
   - enabled: 1
     path: Assets/Game/Episodes/Episode00/Scenes/Episode00_Main.unity
     guid: 251f56d109373b04e96eba017975c2eb
   - enabled: 1
     path: Assets/Game/Minigames/ObjectPlacementTemplate/Scenes/ObjPlacementScene.unity
->>>>>>> 752f0777284222a9591c681a4b08d0c3df0de070
     guid: 8697ff2649ff0f94c852ca21ac707282

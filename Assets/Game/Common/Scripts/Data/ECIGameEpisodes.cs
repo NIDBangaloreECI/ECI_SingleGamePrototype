@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -37,7 +39,7 @@ namespace com.nidb.data
 		private ECIGameEpisodeInfo[] _episodes;
 
 		public int pEpisodeCount { get { return _episodes.Length; } }
-
+		#if UNITY_EDITOR
 		[MenuItem("NIDB/ECI Game Tools/Data/Create Game Episodes List")]
 		public static void CreateAsset()
 		{
@@ -50,7 +52,7 @@ namespace com.nidb.data
 			AssetDatabase.SaveAssets();
 			AssetDatabase.Refresh();
 		}
-
+		#endif
 		public void LoadEpisode(int episodeIndex)
 		{
 			if(episodeIndex >= 0 && episodeIndex < _episodes.Length)
