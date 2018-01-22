@@ -220,6 +220,11 @@ Prefab:
       propertyPath: _pnlHelp
       value: 
       objectReference: {fileID: 1844469483}
+    - target: {fileID: 224839910111043238, guid: f7334a894065614429f129b2a03e5a9b,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 128
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7334a894065614429f129b2a03e5a9b, type: 2}
   m_IsPrefabParent: 0
@@ -515,6 +520,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551261768983542, guid: a525604ce7427af4d824ad341337e8da, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a525604ce7427af4d824ad341337e8da, type: 2}
