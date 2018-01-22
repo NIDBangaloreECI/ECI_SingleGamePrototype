@@ -77,6 +77,7 @@ namespace com.nidb.games.placementgame
 			mPlacedObjects++;
 			if(mPlacedObjects >= _placeableObjects.Length)
 				_pnlGameOver.gameObject.SetActive(true);
+			mActivePlaceable = null;
 		}
 
 	}

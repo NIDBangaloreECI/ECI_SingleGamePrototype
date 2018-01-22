@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 114086364109924342}
   - component: {fileID: 114936516706013034}
   - component: {fileID: 114427613527681176}
+  - component: {fileID: 111346135421605260}
   m_Layer: 5
   m_Name: SlotKamal
   m_TagString: Untagged
@@ -61,6 +62,7 @@ GameObject:
   - component: {fileID: 114707138589920742}
   - component: {fileID: 114592697399630470}
   - component: {fileID: 114222084348253428}
+  - component: {fileID: 111953272134769026}
   m_Layer: 5
   m_Name: SlotPulakesh
   m_TagString: Untagged
@@ -80,6 +82,7 @@ GameObject:
   - component: {fileID: 114305457194977300}
   - component: {fileID: 114647518043428938}
   - component: {fileID: 114210022889724774}
+  - component: {fileID: 111286808644271414}
   m_Layer: 5
   m_Name: SlotPollingAgent
   m_TagString: Untagged
@@ -202,6 +205,7 @@ GameObject:
   - component: {fileID: 114832402700435258}
   - component: {fileID: 114980624009491734}
   - component: {fileID: 114553607581389706}
+  - component: {fileID: 111126845616625184}
   m_Layer: 5
   m_Name: SlotControlUnit
   m_TagString: Untagged
@@ -238,6 +242,7 @@ GameObject:
   - component: {fileID: 114367920307388474}
   - component: {fileID: 114562909446029600}
   - component: {fileID: 114959371040423338}
+  - component: {fileID: 111293003630441098}
   m_Layer: 5
   m_Name: SlotExit
   m_TagString: Untagged
@@ -290,6 +295,7 @@ GameObject:
   - component: {fileID: 114072808586524356}
   - component: {fileID: 114176011421782682}
   - component: {fileID: 114173094171079950}
+  - component: {fileID: 111031790635957258}
   m_Layer: 5
   m_Name: SlotRope
   m_TagString: Untagged
@@ -309,6 +315,7 @@ GameObject:
   - component: {fileID: 114873208560840492}
   - component: {fileID: 114002768081738016}
   - component: {fileID: 114015867564795550}
+  - component: {fileID: 111162117512854634}
   m_Layer: 5
   m_Name: SlotVotingCompartment
   m_TagString: Untagged
@@ -446,6 +453,7 @@ GameObject:
   - component: {fileID: 114066522377773668}
   - component: {fileID: 114327525798046400}
   - component: {fileID: 114561876523527204}
+  - component: {fileID: 111032388646567228}
   m_Layer: 5
   m_Name: SlotEntry
   m_TagString: Untagged
@@ -482,6 +490,7 @@ GameObject:
   - component: {fileID: 114192417255179544}
   - component: {fileID: 114887605868659468}
   - component: {fileID: 114257966575355964}
+  - component: {fileID: 111662530181557210}
   m_Layer: 5
   m_Name: SlotVVPAT
   m_TagString: Untagged
@@ -518,6 +527,7 @@ GameObject:
   - component: {fileID: 114925173779048812}
   - component: {fileID: 114465333072293888}
   - component: {fileID: 114650048388871292}
+  - component: {fileID: 111783224777421582}
   m_Layer: 5
   m_Name: SlotSeatingArea
   m_TagString: Untagged
@@ -552,6 +562,7 @@ GameObject:
   - component: {fileID: 114105441616927800}
   - component: {fileID: 114487479037966698}
   - component: {fileID: 114796467466127244}
+  - component: {fileID: 111894495042040898}
   m_Layer: 5
   m_Name: SlotPooja
   m_TagString: Untagged
@@ -571,6 +582,7 @@ GameObject:
   - component: {fileID: 114395002101017270}
   - component: {fileID: 114307397658636374}
   - component: {fileID: 114921418535392756}
+  - component: {fileID: 111939491908341794}
   m_Layer: 5
   m_Name: SlotWater
   m_TagString: Untagged
@@ -796,6 +808,7 @@ GameObject:
   - component: {fileID: 114266550552394706}
   - component: {fileID: 114794153355196154}
   - component: {fileID: 114297550077709706}
+  - component: {fileID: 111673779566939216}
   m_Layer: 5
   m_Name: SlotPlayer
   m_TagString: Untagged
@@ -815,6 +828,7 @@ GameObject:
   - component: {fileID: 114990835518638252}
   - component: {fileID: 114694635723165906}
   - component: {fileID: 114957674690769896}
+  - component: {fileID: 111264180921094950}
   m_Layer: 5
   m_Name: SlotEVM
   m_TagString: Untagged
@@ -822,6 +836,216 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!111 &111031790635957258
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254824976561346}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111032388646567228
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1502871368705056}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111126845616625184
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1162817814703316}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111162117512854634
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1290112674987108}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111264180921094950
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1985679758393534}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111286808644271414
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059633392747980}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111293003630441098
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205751604485960}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111346135421605260
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1019046881847362}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111662530181557210
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1507346185808366}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111673779566939216
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1979337373652490}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111783224777421582
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1527023537202178}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111894495042040898
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1605636705940624}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111939491908341794
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1607276857625592}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111953272134769026
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035236214456136}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ef15925647159d49b19333a036327e8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &114002768081738016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4135,7 +4359,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1177, y: 657}
-  m_SizeDelta: {x: 120, y: 120}
+  m_SizeDelta: {x: 128, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224902664438387458
 RectTransform:

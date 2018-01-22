@@ -41,6 +41,7 @@ namespace com.nidb.games.placementgame
 			else
 			{
 				_mBoard.PlacementFailed();
+				GetComponent<Animation> ().Play ();
 			}
 		}
 
