@@ -13,6 +13,8 @@ namespace com.nidb.games.placementgame
 	{
 		[SerializeField]
 		private Image _iconImage;
+		[SerializeField]
+		private Image _highlightImage;
 
 		private GameBoard.PlaceableObjectInfo mInfo;
 		private GameBoard mBoard;
@@ -26,6 +28,11 @@ namespace com.nidb.games.placementgame
 
 			_iconImage.sprite = mInfo.pIconImage;
 			GetComponent<Button>().onClick.AddListener( () => mBoard.SetActivePlaceable(this) );
+		}
+
+		public void SetHighlight(bool onOrOff)
+		{
+			_highlightImage.enabled = onOrOff;
 		}
 	}
 }

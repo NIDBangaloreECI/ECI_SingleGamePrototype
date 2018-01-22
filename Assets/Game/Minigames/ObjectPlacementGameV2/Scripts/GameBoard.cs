@@ -63,6 +63,7 @@ namespace com.nidb.games.placementgame
 		public void SetActivePlaceable(PlaceableObject obj)
 		{
 			mActivePlaceable = obj;
+			_menu.SetSelected (obj);
 		}
 
 		public void PlacementFailed()
@@ -72,6 +73,7 @@ namespace com.nidb.games.placementgame
 		public void PlacementSucceeded()
 		{
 			mActivePlaceable.gameObject.SetActive(false);
+			_menu.RefreshMenu ();
 			mPlacedObjects++;
 			if(mPlacedObjects >= _placeableObjects.Length)
 				_pnlGameOver.gameObject.SetActive(true);

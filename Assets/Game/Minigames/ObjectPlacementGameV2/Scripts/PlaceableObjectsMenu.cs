@@ -39,5 +39,42 @@ namespace com.nidb.games.placementgame
 				_menuContentRoot.sizeDelta = size;
 			}
 		}
+
+		public void RefreshMenu()
+		{
+			float btnX = _xOffset;
+			float btnY = _yOffset;
+			RectTransform[] children = new RectTransform[_menuContentRoot.childCount];
+			for (int i = 0; i < _menuContentRoot.childCount; ++i) 
+			{
+				children [i] = _menuContentRoot.GetChild (i) as RectTransform;
+			}
+			for(int i = 0; i < children.Length; ++i)
+			{
+				if (children [i] == null || !children [i].gameObject.activeSelf )
+					continue;
+				RectTransform btnTrans = children[i];
+				btnTrans.anchoredPosition = new Vector2(btnX, btnY);
+				btnTrans.localScale = new Vector3(1, 1, 1);
+				btnX += btnTrans.sizeDelta.x + _xPad;
+				Vector2 size = _menuContentRoot.sizeDelta;
+				size.x = btnX;
+				_menuContentRoot.sizeDelta = size;
+			}
+		}
+
+		public void SetSelected(PlaceableObject obj)
+		{
+			for (int i = 0; i < _menuContentRoot.childCount; ++i) 
+			{
+				PlaceableObject childObj = _menuContentRoot.GetChild (i).GetComponent<PlaceableObject>();
+				if (!childObj.gameObject.activeSelf)
+					continue;
+				if (childObj.pInfo.pName == obj.pInfo.pName)
+					childObj.SetHighlight (true);
+				else
+					childObj.SetHighlight (false);
+			}
+		}
 	}
 }
