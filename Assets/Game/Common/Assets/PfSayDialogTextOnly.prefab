@@ -51,7 +51,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1531652485556716
 GameObject:
   m_ObjectHideFlags: 1
@@ -525,8 +525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTextObject: {fileID: 1531652485556716}
   punchObject: {fileID: 1656488179800126}
-  writingSpeed: 60
-  punctuationPause: 0.25
+  writingSpeed: 0
+  punctuationPause: 0
   hiddenTextColor: {r: 1, g: 1, b: 1, a: 0}
   writeWholeWords: 0
   forceRichText: 1
