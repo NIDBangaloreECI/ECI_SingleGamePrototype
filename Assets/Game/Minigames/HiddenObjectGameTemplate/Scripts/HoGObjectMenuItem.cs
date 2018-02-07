@@ -10,14 +10,22 @@ namespace com.nidb.games.hiddenobjectgame
 	 */
 	public class HoGObjectMenuItem : MonoBehaviour 
 	{
+		public delegate void MenuObjectRemovedListener(HoGObjectMenuItem menuItem);
+
 		[SerializeField]
 		private Image _iconImage;
 		[SerializeField]
 		private Text _iconText;
 
 		private ValidObjectsScript mCurrentObject;
+		private MenuObjectRemovedListener mOnMenuObjectRemoved = null;
 
 		public bool pHasObject { get { return (mCurrentObject != null); } }
+		public event MenuObjectRemovedListener pOnMenuObjectRemoved
+		{
+			add { mOnMenuObjectRemoved += value; }
+			remove { mOnMenuObjectRemoved -= value; }
+		}
 
 		public void SetObject(ValidObjectsScript obj)
 		{
@@ -48,6 +56,10 @@ namespace com.nidb.games.hiddenobjectgame
 			}
 			if(_iconText != null)
 				_iconText.text = string.Empty;
+			mCurrentObject.pObjectFound -= OnObjectFound;
+			mCurrentObject = null;
+			if(mOnMenuObjectRemoved != null)
+				mOnMenuObjectRemoved(this);
 		}
 	}
 }

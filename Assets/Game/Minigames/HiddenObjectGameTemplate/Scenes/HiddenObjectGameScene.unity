@@ -210,6 +210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _randomize: 0
   _menuSlots: []
+  _gameOverScreen: {fileID: 0}
   leftText: {fileID: 1951630577}
   middleText: {fileID: 554096699}
   rightText: {fileID: 1726771414}

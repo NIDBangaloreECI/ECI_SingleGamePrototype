@@ -15,6 +15,8 @@ namespace com.nidb.games.hiddenobjectgame
 		private bool _randomize = false;
 		[SerializeField]
 		private HoGObjectMenuItem[] _menuSlots;
+		[SerializeField]
+		private Transform _gameOverScreen;
 
 		private List<ValidObjectsScript> mInactiveObjects = new List<ValidObjectsScript>();
 		private List<ValidObjectsScript> mUsedObjects = new List<ValidObjectsScript>();
@@ -70,7 +72,18 @@ namespace com.nidb.games.hiddenobjectgame
 			for(int i = 0; i < _menuSlots.Length; ++i)
 			{
 				ValidObjectsScript obj = GetNextObject();
-				_menuSlots[i].SetObject(obj);
+				if(obj != null)
+				{
+					_menuSlots[i].SetObject(obj);
+					int menuItemId = i;
+					_menuSlots[i].pOnMenuObjectRemoved += (HoGObjectMenuItem menuItem) => 
+					{
+						ValidObjectsScript newObj = GetNextObject();
+						if(newObj != null)
+							_menuSlots[menuItemId].SetObject(newObj);
+						CheckGameOver();
+					};
+				}
 			}
 		}
 
@@ -87,24 +100,38 @@ namespace com.nidb.games.hiddenobjectgame
 			}
 		}
 */
+		private void CheckGameOver()
+		{
+			bool gameOver = true;
+			for(int i = 0; i < _menuSlots.Length; ++i)
+			{
+				if(_menuSlots[i].pHasObject)
+					gameOver = false;
+			}
+			if(gameOver)
+			{
+				if(_gameOverScreen != null)
+					_gameOverScreen.gameObject.SetActive(true);
+			}
+		}
+
 		private ValidObjectsScript GetNextObject()
 		{
 			ValidObjectsScript outObj = null;
+			if(mInactiveObjects.Count <= 0 || mCurrentIndex >= mInactiveObjects.Count)
+				return null;
 			if(_randomize)
 			{
 				int rndIdx = Random.Range(0, mInactiveObjects.Count);
 				outObj = mInactiveObjects[rndIdx];
+				mUsedObjects.Add(outObj);
+				mInactiveObjects.Remove(outObj);
 			}
 			else
 			{
 				if(mCurrentIndex < 0 || mCurrentIndex >= mInactiveObjects.Count)
 					mCurrentIndex = 0;
 				outObj = mInactiveObjects[mCurrentIndex++];
-			}
-			if(outObj != null)
-			{
-				mUsedObjects.Add(outObj);
-				mInactiveObjects.Remove(outObj);
 			}
 			return outObj;
 		}
