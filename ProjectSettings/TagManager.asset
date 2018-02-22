@@ -20,6 +20,9 @@ TagManager:
   - EntryDoorTargetTag
   - PoTargetTag
   - WaterTargetTag
+  - valid
+  - invalid
+  - HoGGameCanvas
   layers:
   - Default
   - TransparentFX
@@ -30,7 +33,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - InvalidLayer
   - 
   - 
   - 
