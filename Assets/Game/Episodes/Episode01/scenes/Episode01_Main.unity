@@ -2024,8 +2024,7 @@ MonoBehaviour:
   indentLevel: 0
   _sourceObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1212167126673208, guid: 077bf715ffbf75c478d8b5890f676bb1,
-      type: 2}
+    gameObjectVal: {fileID: 0}
   _parentTransform:
     transformRef: {fileID: 0}
     transformVal: {fileID: 0}
@@ -2103,8 +2102,7 @@ MonoBehaviour:
   indentLevel: 0
   _sourceObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1212167126673208, guid: 077bf715ffbf75c478d8b5890f676bb1,
-      type: 2}
+    gameObjectVal: {fileID: 0}
   _parentTransform:
     transformRef: {fileID: 0}
     transformVal: {fileID: 0}
