@@ -8,6 +8,7 @@ namespace com.nidb.games.hiddenobjectgame
     {
 
         private int mWrongClickCount;
+        private int mWrongClickTotalCount;
         [SerializeField]
         private GameObject mPenaltyPopUpPanel;
 
@@ -15,6 +16,7 @@ namespace com.nidb.games.hiddenobjectgame
         void Start()
         {
             mWrongClickCount = 0;
+            mWrongClickTotalCount = 0;
         }
 
         // Update is called once per frame
@@ -36,6 +38,7 @@ namespace com.nidb.games.hiddenobjectgame
         public void setWrongClickCount(int clickIndex)
         {
             mWrongClickCount += clickIndex;
+            mWrongClickTotalCount += clickIndex;
         }
 
         void PanelDeactivator()
