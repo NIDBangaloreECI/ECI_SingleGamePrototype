@@ -1847,6 +1847,10 @@ GameObject:
   - component: {fileID: 1935096904}
   - component: {fileID: 1935096902}
   - component: {fileID: 1935096901}
+  - component: {fileID: 1935096913}
+  - component: {fileID: 1935096915}
+  - component: {fileID: 1935096912}
+  - component: {fileID: 1935096914}
   m_Layer: 0
   m_Name: HiddenObjectGame
   m_TagString: Untagged
@@ -1867,11 +1871,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1972.4037, y: 31.18922}
+  scrollPos: {x: 1135.6969, y: -251.43817}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.25
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1879,9 +1883,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1935096947}
+  - {fileID: 1935096913}
   selectedCommands:
-  - {fileID: 1935096901}
+  - {fileID: 1935096912}
   variables: []
   description: 
   stepPause: 0
@@ -2072,9 +2076,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -605.9582
-    y: 515.5258
-    width: 178
+    x: -632.9582
+    y: 346.52582
+    width: 169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2102,7 +2106,8 @@ MonoBehaviour:
   indentLevel: 0
   _sourceObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
+    gameObjectVal: {fileID: 1212167126673208, guid: 077bf715ffbf75c478d8b5890f676bb1,
+      type: 2}
   _parentTransform:
     transformRef: {fileID: 0}
     transformVal: {fileID: 0}
@@ -2135,9 +2140,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -928.02234
-    y: 596.5382
-    width: 202
+    x: -927.02234
+    y: 431.5382
+    width: 193
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2245,7 +2250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "\tWell, *Belated* happy birthday!"
+  storyText: Well, *Belated* happy birthday!
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -2272,7 +2277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "\tWelcome back! Happy birthday!!"
+  storyText: Welcome back! Happy birthday!!
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -2306,6 +2311,96 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1935096912
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935096894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb3e86f556e074b84af1cc7eb8f8e5e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  _sourceObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1212167126673208, guid: 077bf715ffbf75c478d8b5890f676bb1,
+      type: 2}
+  _parentTransform:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  _spawnAtSelf:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  _spawnPosition:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+  _spawnRotation:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+  _newlySpawnedObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  sourceObjectOLD: {fileID: 0}
+  parentTransformOLD: {fileID: 0}
+  spawnPositionOLD: {x: 0, y: 0, z: 0}
+  spawnRotationOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &1935096913
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935096894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1080.6969
+    y: 593.4382
+    width: 143
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 127
+  blockName: SkipToMinigame
+  description: 
+  eventHandler: {fileID: 1935096915}
+  commandList:
+  - {fileID: 1935096912}
+  - {fileID: 1935096914}
+--- !u!114 &1935096914
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935096894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae67a23cb4aa74793b41258ae40bf321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  indentLevel: 0
+  stopParentFlowchart: 0
+  targetFlowcharts: []
+--- !u!114 &1935096915
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935096894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1935096913}
+  targetButton: {fileID: 703432337}
 --- !u!114 &1935096922
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2346,9 +2441,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -306.0859
-    y: 771.4888
-    width: 198
+    x: -373.0859
+    y: 597.4888
+    width: 182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2373,7 +2468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "\tI haven\u2019t, but my brother has. He is the one who encouraged me
+  storyText: "I haven\u2019t, but my brother has. He is the one who encouraged me
     to get my voter id."
   description: 
   character: {fileID: 1094857513}
@@ -2401,7 +2496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: " \tNot yet!"
+  storyText: Not yet!
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -2447,7 +2542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  storyText: " \tYou can also download the form from there and submit it."
+  storyText: You can also download the form from there and submit it.
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -2557,7 +2652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: "\tWelcome to Club 18!"
+  storyText: Welcome to Club 18!
   description: 
   character: {fileID: 526927020}
   portrait: {fileID: 21300000, guid: 8b620c5a77c629142956b98aa611f2a9, type: 3}
@@ -2584,7 +2679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: "\tI played the latest MegaBlaster! It was mindblowing!"
+  storyText: I played the latest MegaBlaster! It was mindblowing!
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -2611,7 +2706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: "\t I finally caught up with my books!"
+  storyText: I finally caught up with my books!
   description: 
   character: {fileID: 526927020}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -2638,7 +2733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: "\tI was binge watching all the seasons of my favorite series! "
+  storyText: 'I was binge watching all the seasons of my favorite series! '
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -2665,9 +2760,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -611.39935
-    y: 864.8888
-    width: 190
+    x: -634.39935
+    y: 521.8888
+    width: 179
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2720,7 +2815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 92
   indentLevel: 0
-  storyText: " \tIt is our responsibility to vote. We can make it count. "
+  storyText: 'It is our responsibility to vote. We can make it count. '
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -2747,9 +2842,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -886.8689
-    y: 177.75668
-    width: 210
+    x: -927.8689
+    y: 307.75668
+    width: 196
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2775,7 +2870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: "\tYa, all of us except Niladri. He seems to be stuck at 5."
+  storyText: Ya, all of us except Niladri. He seems to be stuck at 5.
   description: 
   character: {fileID: 526927020}
   portrait: {fileID: 21300000, guid: 8b620c5a77c629142956b98aa611f2a9, type: 3}
@@ -2802,7 +2897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: "\tHaha! Can you believe we are adults now?"
+  storyText: Haha! Can you believe we are adults now?
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -2829,7 +2924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: "\tHow does it feel to turn 18?"
+  storyText: How does it feel to turn 18?
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -2856,7 +2951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 91
   indentLevel: 0
-  storyText: " \tThank you, thank you!"
+  storyText: Thank you, thank you!
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -2883,7 +2978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 0
-  storyText: "\tWow, Niladri. I\u2019m impressed."
+  storyText: "Wow, Niladri. I\u2019m impressed."
   description: 
   character: {fileID: 526927020}
   portrait: {fileID: 21300000, guid: 8b620c5a77c629142956b98aa611f2a9, type: 3}
@@ -2910,7 +3005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 89
   indentLevel: 0
-  storyText: " \tAnd if we do not vote we are just weakening our democracy."
+  storyText: And if we do not vote we are just weakening our democracy.
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -2937,8 +3032,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  storyText: " \t India is the largest democracy in the world. It is the largest because
-    of its populace. A government is as large as the number of people it encompasses."
+  storyText: India is the largest democracy in the world. It is the largest because
+    of its populace. A government is as large as the number of people it encompasses.
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -2985,8 +3080,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 85
   indentLevel: 0
-  storyText: "\tThe general elections are coming up next year. If you and Rajesh get
-    enrolled, then we all can vote together!"
+  storyText: The general elections are coming up next year. If you and Rajesh get
+    enrolled, then we all can vote together!
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -3013,7 +3108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: "\tAs always!"
+  storyText: As always!
   description: 
   character: {fileID: 526927020}
   portrait: {fileID: 21300000, guid: 8b620c5a77c629142956b98aa611f2a9, type: 3}
@@ -3040,7 +3135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: "\tBy a few months, Niladri! I\u2019m in!"
+  storyText: "By a few months, Niladri! I\u2019m in!"
   description: 
   character: {fileID: 526927020}
   portrait: {fileID: 21300000, guid: 8b620c5a77c629142956b98aa611f2a9, type: 3}
@@ -3067,8 +3162,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: "\tAs much as you guys think that I haven\u2019t grown up, I have my
-    voter id too. \nRemember, I\u2019m older than all of you!"
+  storyText: "As much as you guys think that I haven\u2019t grown up, I have my voter
+    id too. \nRemember, I\u2019m older than all of you!"
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -3095,7 +3190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: "\t I think we all should! Why don\u2019t you guys register to be a voter
+  storyText: "I think we all should! Why don\u2019t you guys register to be a voter
     too?"
   description: 
   character: {fileID: 1809990724}
@@ -3123,7 +3218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: "\t Woah! So cool!"
+  storyText: Woah! So cool!
   description: 
   character: {fileID: 526927020}
   portrait: {fileID: 21300000, guid: 8b620c5a77c629142956b98aa611f2a9, type: 3}
@@ -3170,8 +3265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: "\tOh! I almost forgot! I enrolled as a voter and got myself a voter
-    id!"
+  storyText: Oh! I almost forgot! I enrolled as a voter and got myself a voter id!
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -3198,9 +3292,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 304.64
-    y: 868.61066
-    width: 182
+    x: -384.36
+    y: 429.61066
+    width: 176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3249,9 +3343,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 182.27396
-    y: 558.53815
-    width: 190
+    x: -129.72604
+    y: 343.53815
+    width: 180
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3355,9 +3449,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 22.28675
-    y: 688.0613
-    width: 158
+    x: -124.71326
+    y: 510.06128
+    width: 148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3436,7 +3530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 0
-  storyText: "\t Exactly. Awareness matters."
+  storyText: Exactly. Awareness matters.
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -3463,7 +3557,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   indentLevel: 0
-  storyText: "\tDo you think you would fall for that gimmick?\n"
+  storyText: 'Do you think you would fall for that gimmick?
+
+'
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -3490,7 +3586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  storyText: " It\u2019s true. And some of our people fall for it. As it is the only
+  storyText: "It\u2019s true. And some of our people fall for it. As it is the only
     time they are actually getting anything in return.\r\n"
   description: 
   character: {fileID: 1094857513}
@@ -3518,8 +3614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 97
   indentLevel: 0
-  storyText: " \tThis was my thought process too. Irrespective of voting for the right
-    candidates, the wrong one may get elected and this discourages people from voting. "
+  storyText: 'This was my thought process too. Irrespective of voting for the right
+    candidates, the wrong one may get elected and this discourages people from voting. '
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -3574,9 +3670,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 324.6877
-    y: 483.99255
-    width: 238
+    x: -146.31229
+    y: 256.99255
+    width: 215
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3601,7 +3697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 110
   indentLevel: 0
-  storyText: ' You can only vote from one constituency. The constituency is decided
+  storyText: 'You can only vote from one constituency. The constituency is decided
     by your residence address. '
   description: 
   character: {fileID: 1094857513}
@@ -3701,8 +3797,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
-  storyText: " \t There are four main forms related to voting. Form 6, Form 7, Form
-    8 & Form 8A. Since you are a first time voter, you will have to fill Form 6. "
+  storyText: 'There are four main forms related to voting. Form 6, Form 7, Form 8
+    & Form 8A. Since you are a first time voter, you will have to fill Form 6. '
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -3729,9 +3825,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 551.9802
-    y: 777.0217
-    width: 126
+    x: 98.980225
+    y: 385.02173
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3756,9 +3852,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 567.90753
-    y: 946.0309
-    width: 266
+    x: 33.90753
+    y: 463.03088
+    width: 247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3785,7 +3881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 0
-  storyText: " \tYes, you can. You can fill the form online at the National Voter\u2019s
+  storyText: "Yes, you can. You can fill the form online at the National Voter\u2019s
     Service Portal (nvsp.in) or your state\u2019s Chief Electoral Officer (CEO)\u2019s
     website."
   description: 
@@ -3814,8 +3910,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 120
   indentLevel: 0
-  storyText: " \tWe know! Your room is a mess, as always! We will help you out. So
-    shall we find your documents?"
+  storyText: We know! Your room is a mess, as always! We will help you out. So shall
+    we find your documents?
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -3842,7 +3938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 119
   indentLevel: 0
-  storyText: " \tI have all of it!"
+  storyText: I have all of it!
   description: 
   character: {fileID: 526927020}
   portrait: {fileID: 21300000, guid: 8b620c5a77c629142956b98aa611f2a9, type: 3}
@@ -3869,7 +3965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: " \tYou will need some documents to go with your Form 6. Digital copies
+  storyText: "You will need some documents to go with your Form 6. Digital copies
     if you are applying online.\r\n1) Passport Size Color Photo\r\n2) Age Proof\r\n3)
     Identity Proof"
   description: 

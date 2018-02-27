@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace com.nidb.games.hiddenobjectgame
 {
 	/**
 	 * Handles a hidden object in the game scene
 	 */
-	public class ValidObjectsScript : MonoBehaviour 
+	public class ValidObjectsScript : MonoBehaviour, IPointerClickHandler
 	{
 		public delegate void ObjectFoundListener();
 
@@ -37,12 +38,13 @@ namespace com.nidb.games.hiddenobjectgame
 			
 		}
 
-		void OnMouseDown()
+		public void OnPointerClick(PointerEventData pEvData)
 		{
 			if (isActiveAndEnabled) 
 			{
 				if(mOnObjectFound != null)
 					mOnObjectFound();
+				enabled = false;
 				Destroy (this.gameObject);
 			}
 		}
