@@ -16,6 +16,8 @@ namespace com.nidb.games.endlessrunnergame
 		private float _minSpeed = 2;
 		[SerializeField]
 		private float _maxSpeed = 6;
+		[SerializeField]
+		private GameObject[] _collectables;
 
 		private List<TrackSegment> mCurrentTrackSegments = new List<TrackSegment>();
 		private List<TrackSegment> mUnusedTrackSegments = new List<TrackSegment>();
@@ -26,6 +28,10 @@ namespace com.nidb.games.endlessrunnergame
 		private float mNextSpeedUpdateDistance = 100;
 
 		private const int TRACK_SEGMENT_LENGTH = 100;				//< ToDo: Allow configuring this for every track.
+		private bool mIsStunned = false;											//< Player is stunned
+		private bool mIsPaused = false;												//< Game is paused
+
+		public bool pIsMoving { get { return (!mIsPaused && !mIsStunned); } }
 
 		// Use this for initialization
 		void Start () 
@@ -35,6 +41,12 @@ namespace com.nidb.games.endlessrunnergame
 
 		
 		public void Update()
+		{
+			if(pIsMoving)
+				MoveUpdate();
+		}
+
+		private void MoveUpdate()
 		{
 			Vector3 moveDelta = new Vector3(0, 0, -mCurrentSpeed * Time.deltaTime);
 			for(int i = 0; i < mCurrentTrackSegments.Count; ++i)
@@ -82,6 +94,7 @@ namespace com.nidb.games.endlessrunnergame
 			mCurrentTrackSegments.Add(outSeg);
 			outSeg.transform.localPosition = new Vector3(0, 0, (mCurrentTrackSegments.Count - 1) * TRACK_SEGMENT_LENGTH);
 			outSeg.gameObject.SetActive(true);
+			outSeg.SetupCollectables(_collectables);
 			return outSeg;
 		}
 
