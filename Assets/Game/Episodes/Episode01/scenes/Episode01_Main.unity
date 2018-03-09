@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -149,6 +149,7 @@ Transform:
   m_LocalPosition: {x: 109.47273, y: 81.343636, z: -2.375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 794478188}
   - {fileID: 1555921235}
   - {fileID: 1104108917}
   - {fileID: 850686924}
@@ -386,6 +387,110 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &363021301
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 130973217}
+    m_Modifications:
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203603702593520, guid: f9a858f133db52840acfeda0d46e0a47, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f9a858f133db52840acfeda0d46e0a47, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &433127010
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +656,7 @@ Prefab:
     - target: {fileID: 224836112164803824, guid: f979fed78af48954e87819052aa484a3,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224836112164803824, guid: f979fed78af48954e87819052aa484a3,
         type: 2}
@@ -602,21 +707,6 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1024915019402370, guid: f979fed78af48954e87819052aa484a3, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114726381955436494, guid: f979fed78af48954e87819052aa484a3,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 8ed4758997a74344bba2c78bb50a206f,
-        type: 3}
-    - target: {fileID: 224874694573449394, guid: f979fed78af48954e87819052aa484a3,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f979fed78af48954e87819052aa484a3, type: 2}
@@ -803,6 +893,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!224 &794478188 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224784680687714748, guid: f9a858f133db52840acfeda0d46e0a47,
+    type: 2}
+  m_PrefabInternal: {fileID: 363021301}
+--- !u!114 &794478193 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114685919927476176, guid: f9a858f133db52840acfeda0d46e0a47,
+    type: 2}
+  m_PrefabInternal: {fileID: 363021301}
+  m_Script: {fileID: 11500000, guid: 9009c0985b51a7444945dafa987f3b67, type: 3}
 --- !u!224 &850686924 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224311625418114262, guid: ec4b86062c8b0a941b37a9a004a5acaa,
@@ -1165,7 +1266,7 @@ Prefab:
     - target: {fileID: 224151943903072618, guid: 1e3b1cfd050e98140a0b5d73174bd863,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224151943903072618, guid: 1e3b1cfd050e98140a0b5d73174bd863,
         type: 2}
@@ -1265,7 +1366,7 @@ Prefab:
     - target: {fileID: 224311625418114262, guid: ec4b86062c8b0a941b37a9a004a5acaa,
         type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224311625418114262, guid: ec4b86062c8b0a941b37a9a004a5acaa,
         type: 2}
@@ -1320,11 +1421,6 @@ Prefab:
     - target: {fileID: 1715288212539406, guid: ec4b86062c8b0a941b37a9a004a5acaa, type: 2}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224626289863601982, guid: ec4b86062c8b0a941b37a9a004a5acaa,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -534.04987
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec4b86062c8b0a941b37a9a004a5acaa, type: 2}
@@ -1409,12 +1505,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224784680687714748, guid: 6e225605b97aca448a7e17a90bee91f7,
     type: 2}
   m_PrefabInternal: {fileID: 1994077661}
---- !u!114 &1555921240 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114685919927476176, guid: 6e225605b97aca448a7e17a90bee91f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1994077661}
-  m_Script: {fileID: 11500000, guid: 9009c0985b51a7444945dafa987f3b67, type: 3}
 --- !u!1 &1558544023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,7 +1879,6 @@ GameObject:
   - component: {fileID: 1935096947}
   - component: {fileID: 1935096948}
   - component: {fileID: 1935096949}
-  - component: {fileID: 1935096951}
   - component: {fileID: 1935096952}
   - component: {fileID: 1935096962}
   - component: {fileID: 1935096961}
@@ -1812,7 +1901,6 @@ GameObject:
   - component: {fileID: 1935096965}
   - component: {fileID: 1935096964}
   - component: {fileID: 1935096963}
-  - component: {fileID: 1935096958}
   - component: {fileID: 1935096922}
   - component: {fileID: 1935096957}
   - component: {fileID: 1935096925}
@@ -1851,6 +1939,7 @@ GameObject:
   - component: {fileID: 1935096915}
   - component: {fileID: 1935096912}
   - component: {fileID: 1935096914}
+  - component: {fileID: 1935096916}
   m_Layer: 0
   m_Name: HiddenObjectGame
   m_TagString: Untagged
@@ -1871,11 +1960,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1135.6969, y: -251.43817}
+  scrollPos: {x: 817.83405, y: 43.00403}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.46000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1883,9 +1972,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1935096913}
+  - {fileID: 1935096905}
   selectedCommands:
-  - {fileID: 1935096912}
+  - {fileID: 1935096973}
   variables: []
   description: 
   stepPause: 0
@@ -1912,7 +2001,9 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "You\u2019ve just returned from the semester break, having celebrated
     your birthday during the vacations. It is a great feeling to have turned 18. Although
-    you are missing home, you can\u2019t "
+    you are missing home, you can\u2019t wait to meet all your friends! You dump your
+    stuff in your room, get ready and head to the college. You are sure your friends
+    will be waiting for you at your usual hangout place."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1924,8 +2015,8 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 1555921240}
-  _responseText: Next
+  setSayDialog: {fileID: 794478193}
+  _responseText: Ok
 --- !u!114 &1935096897
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1941,7 +2032,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -1095.9637
-    y: 389.70374
+    y: 391.34308
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1953,7 +2044,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1935096945}
   - {fileID: 1935096896}
-  - {fileID: 1935096951}
   - {fileID: 1935096910}
   - {fileID: 1935096909}
   - {fileID: 1935096952}
@@ -2077,8 +2167,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -632.9582
-    y: 346.52582
-    width: 169
+    y: 349.22852
+    width: 160.86945
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2141,8 +2231,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -927.02234
-    y: 431.5382
-    width: 193
+    y: 433.71213
+    width: 186.95639
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2250,7 +2340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Well, *Belated* happy birthday!
+  storyText: Well, *belated* happy birthday!
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -2262,8 +2352,8 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 1104108922}
-  _responseText: ' Thank''s Bro!'
+  setSayDialog: {fileID: 850686929}
+  _responseText: 
 --- !u!114 &1935096910
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2289,8 +2379,8 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 1104108922}
-  _responseText: ' Hey! Thank you!'
+  setSayDialog: {fileID: 850686929}
+  _responseText: 
 --- !u!114 &1935096911
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2362,7 +2452,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1080.6969
     y: 593.4382
-    width: 143
+    width: 134.78253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2401,6 +2491,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1935096913}
   targetButton: {fileID: 703432337}
+--- !u!114 &1935096916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935096894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf8dba1404af8e43ac6c2e71853146e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  storyText: "1) Passport Size Color Photo\r\n2) Age Proof\r\n3) Identity Proof"
+  description: 
+  character: {fileID: 1809990724}
+  portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 850686929}
+  _responseText: 
 --- !u!114 &1935096922
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2414,7 +2531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  text: "I\u2019ve no interest in politics! Everyone\u2019s corrupt!"
+  text: I've no interest in politics! Everyone's corrupt!
   description: 
   targetBlock: {fileID: 1935096925}
   hideIfVisited: 0
@@ -2427,7 +2544,8 @@ MonoBehaviour:
     booleanVal: 0
   _character: {fileID: 1809990724}
   _portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
-  _sayText: Imagine having the power to elect the government.
+  _sayText: It is our responsibility to vote. We can make it count. Imagine having
+    the power to elect the government.
 --- !u!114 &1935096925
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2443,7 +2561,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -373.0859
     y: 597.4888
-    width: 182
+    width: 173.91292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2610,35 +2728,6 @@ MonoBehaviour:
   indentLevel: 0
   stopParentFlowchart: 1
   targetFlowcharts: []
---- !u!114 &1935096951
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1935096894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abf8dba1404af8e43ac6c2e71853146e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 56
-  indentLevel: 0
-  storyText: wait to meet all your friends! You dump your stuff in your room, get
-    ready and head to the college. You are sure your friends will be waiting for you
-    at your usual hangout place.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 1555921240}
-  _responseText: Ok
 --- !u!114 &1935096952
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2709,7 +2798,7 @@ MonoBehaviour:
   storyText: I finally caught up with my books!
   description: 
   character: {fileID: 526927020}
-  portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
+  portrait: {fileID: 21300000, guid: 8b620c5a77c629142956b98aa611f2a9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2762,7 +2851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -634.39935
     y: 521.8888
-    width: 179
+    width: 167.39119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2775,7 +2864,6 @@ MonoBehaviour:
   - {fileID: 1935096965}
   - {fileID: 1935096964}
   - {fileID: 1935096963}
-  - {fileID: 1935096958}
   - {fileID: 1935096922}
   - {fileID: 1935096957}
 --- !u!114 &1935096957
@@ -2802,33 +2890,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1935096958
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1935096894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abf8dba1404af8e43ac6c2e71853146e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 92
-  indentLevel: 0
-  storyText: 'It is our responsibility to vote. We can make it count. '
-  description: 
-  character: {fileID: 1809990724}
-  portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 850686929}
-  _responseText: 
 --- !u!114 &1935096959
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2844,7 +2905,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -927.8689
     y: 307.75668
-    width: 196
+    width: 184.78247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2882,8 +2943,8 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 1104108922}
-  _responseText: ' Ha ha ha!'
+  setSayDialog: {fileID: 850686929}
+  _responseText: 
 --- !u!114 &1935096961
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2909,8 +2970,8 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 1104108922}
-  _responseText: ' True!'
+  setSayDialog: {fileID: 850686929}
+  _responseText: 
 --- !u!114 &1935096962
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3093,8 +3154,8 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 850686929}
-  _responseText: 
+  setSayDialog: {fileID: 1104108922}
+  _responseText: But is voting really that important?
 --- !u!114 &1935096969
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3135,7 +3196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: "By a few months, Niladri! I\u2019m in!"
+  storyText: I'm in guys! Let's do it!
   description: 
   character: {fileID: 526927020}
   portrait: {fileID: 21300000, guid: 8b620c5a77c629142956b98aa611f2a9, type: 3}
@@ -3163,7 +3224,7 @@ MonoBehaviour:
   itemId: 82
   indentLevel: 0
   storyText: "As much as you guys think that I haven\u2019t grown up, I have my voter
-    id too. \nRemember, I\u2019m older than all of you!"
+    id too. Remember, I\u2019m older than all of you!"
   description: 
   character: {fileID: 1094857513}
   portrait: {fileID: 21300000, guid: d9b92e1dffbb1634c805a4ed82dc4fab, type: 3}
@@ -3231,7 +3292,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1104108922}
-  _responseText: Wow, you are taking this adult thing seriously!
+  _responseText: Wow Deepa, you are taking this adult thing seriously!
 --- !u!114 &1935096974
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3294,7 +3355,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -384.36
     y: 429.61066
-    width: 176
+    width: 171.73901
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3345,7 +3406,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -129.72604
     y: 343.53815
-    width: 180
+    width: 169.5651
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3451,7 +3512,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -124.71326
     y: 510.06128
-    width: 148
+    width: 141.30426
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3672,7 +3733,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146.31229
     y: 256.99255
-    width: 215
+    width: 202.17377
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3854,7 +3915,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.90753
     y: 463.03088
-    width: 247
+    width: 243.47807
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3864,6 +3925,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1935097001}
+  - {fileID: 1935096916}
   - {fileID: 1935097000}
   - {fileID: 1935096999}
   - {fileID: 1935096904}
@@ -3966,8 +4028,7 @@ MonoBehaviour:
   itemId: 118
   indentLevel: 0
   storyText: "You will need some documents to go with your Form 6. Digital copies
-    if you are applying online.\r\n1) Passport Size Color Photo\r\n2) Age Proof\r\n3)
-    Identity Proof"
+    if you are applying online.\r"
   description: 
   character: {fileID: 1809990724}
   portrait: {fileID: 21300000, guid: 1c7eb31b6d0c9444b9f1544aebb475a6, type: 3}
@@ -4026,7 +4087,7 @@ Prefab:
     - target: {fileID: 224784680687714748, guid: 6e225605b97aca448a7e17a90bee91f7,
         type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224784680687714748, guid: 6e225605b97aca448a7e17a90bee91f7,
         type: 2}
@@ -4078,10 +4139,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1203603702593520, guid: 6e225605b97aca448a7e17a90bee91f7, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e225605b97aca448a7e17a90bee91f7, type: 2}
   m_IsPrefabParent: 0
@@ -4118,7 +4175,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.00003051779, y: -0.037033}
-  m_SizeDelta: {x: 2560, y: 1127.9}
+  m_SizeDelta: {x: 2560, y: 1440}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2026604014
 MonoBehaviour:
