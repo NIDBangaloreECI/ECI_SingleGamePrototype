@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 namespace com.nidb.games.hiddenobjectgame
@@ -17,6 +18,14 @@ namespace com.nidb.games.hiddenobjectgame
 		[SerializeField]
 		private string _name;
 
+
+		[SerializeField]
+		private Image _blinkImage;
+		[SerializeField]
+		private float _blinkFrequency = 0.5f;
+		[SerializeField]
+		private float _blinkDuration = 2;
+
 		private ObjectFoundListener mOnObjectFound = null;
 
 		public Sprite pMenuIconSprite { get { return _menuIcon; } }
@@ -29,13 +38,19 @@ namespace com.nidb.games.hiddenobjectgame
 		}
 
 		// Use this for initialization
-		void Start () {
-			
+		public void Start () 
+		{
 		}
 		
 		// Update is called once per frame
-		void Update () {
+		public void Update () 
+		{
 			
+		}
+
+		public void OnEnable()
+		{
+			_blinkImage.enabled = true;
 		}
 
 		public void OnPointerClick(PointerEventData pEvData)
@@ -48,5 +63,26 @@ namespace com.nidb.games.hiddenobjectgame
 				Destroy (this.gameObject);
 			}
 		}
+
+		public void Highlight()
+		{
+			Animator anim = GetComponent<Animator>();
+			if(anim != null)
+				anim.SetTrigger("TriggerScale");
+			else
+				StartCoroutine (BlinkFunc());
+		}
+
+		private IEnumerator BlinkFunc()
+		{
+			float startTime = Time.realtimeSinceStartup;
+			while((Time.realtimeSinceStartup - startTime) < _blinkDuration)
+			{
+				yield return new WaitForSeconds(_blinkFrequency);
+				_blinkImage.enabled = !_blinkImage.enabled;
+			}
+			_blinkImage.enabled = true;
+		}
+
 	}
 }

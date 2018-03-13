@@ -8,48 +8,62 @@ namespace com.nidb.games.hiddenobjectgame
 {
     public class CountdownTimerScript : MonoBehaviour
     {
+		public delegate void TimerUpdateDelegate(float timeLeft);
 
-        public float timeLeft = 60;
+		[SerializeField]
+		private Text cdTimer;
+	
+		public float timeLeft = 60;
         float min;
         float sec;
 
-        public Text cdTimer;
+		private TimerUpdateDelegate mOnTimerUpdate;
+		private bool mIsTimerRunning = true;
+		private float mCurrTimeLeft;
 
-        void Start()
-        {
+		public event TimerUpdateDelegate pOnTimerUpdate 
+		{
+			add { mOnTimerUpdate += value; }
+			remove { mOnTimerUpdate -= value; }
+		}
 
-        }
+		public void Start()
+		{
+			Reset();
+		}
 
+		public void Reset()
+		{
+			mCurrTimeLeft = timeLeft;
+			mIsTimerRunning = true;
+		}
 
         void Update()
         {
 
-            timeLeft -= Time.deltaTime;
-            min = Mathf.Floor(timeLeft / 60);
-            sec = Mathf.Floor(timeLeft % 60);
-            if (sec >= 10)
-            {
-                cdTimer.text = "0" + min.ToString() + ":" + sec.ToString();
-            }
-            else
-            {
-                cdTimer.text = "0" + min.ToString() + ":" + "0" + sec.ToString();
-            }
-
-            if (timeLeft < 1)
-            {
-                Invoke("SceneLoader", 0.9f);
-            }
+            mCurrTimeLeft -= Time.deltaTime;
+			if(mCurrTimeLeft >= 0)
+			{
+				min = Mathf.Floor(mCurrTimeLeft / 60);
+				sec = Mathf.Floor(mCurrTimeLeft % 60);
+	            if (sec >= 10)
+	            {
+	                cdTimer.text = "0" + min.ToString() + ":" + sec.ToString();
+	            }
+	            else
+	            {
+	                cdTimer.text = "0" + min.ToString() + ":" + "0" + sec.ToString();
+	            }
+			}
+			if(mOnTimerUpdate != null)
+				mOnTimerUpdate(mCurrTimeLeft);
+			if(timeLeft >= 0)
+				mIsTimerRunning = false;
         }
 
         public void setTimeLeft(int n)
         {
-            timeLeft = timeLeft - n;
-        }
-
-        void SceneLoader()
-        {
-            SceneManager.LoadScene("HiddenObjectGameScene");
+			mCurrTimeLeft = mCurrTimeLeft - n;
         }
     }
 

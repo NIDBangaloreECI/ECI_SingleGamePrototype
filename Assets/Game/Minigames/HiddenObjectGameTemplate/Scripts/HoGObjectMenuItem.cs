@@ -46,6 +46,11 @@ namespace com.nidb.games.hiddenobjectgame
 				_iconText.text = obj.pName;
 		}
 
+		public void ShowHint()
+		{
+			mCurrentObject.Highlight();
+		}
+
 		private void OnObjectFound()
 		{
 			// Maybe play some animation before.
