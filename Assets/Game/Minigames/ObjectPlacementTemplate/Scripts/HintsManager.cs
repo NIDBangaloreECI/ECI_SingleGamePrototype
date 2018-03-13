@@ -25,12 +25,11 @@ public class HintsManager : MonoBehaviour
 
     void Populate()
     {
-        GameObject newHintObj; // Create GameObject instance
 
         for (int i = 0; i < numberToCreate; i++)
         {
             // Create new instances of our prefab until we've created as many as we specified
-            newHintObj = (GameObject)Instantiate(Hintprefab[i], transform);
+           Instantiate(Hintprefab[i], transform);
         }
 
     }

@@ -40,7 +40,8 @@ namespace com.nidb.games.hiddenobjectgame
 
         void Update()
         {
-
+			if(!mIsTimerRunning)
+				return;
             mCurrTimeLeft -= Time.deltaTime;
 			if(mCurrTimeLeft >= 0)
 			{
@@ -57,7 +58,7 @@ namespace com.nidb.games.hiddenobjectgame
 			}
 			if(mOnTimerUpdate != null)
 				mOnTimerUpdate(mCurrTimeLeft);
-			if(timeLeft >= 0)
+			if(timeLeft <= 0)
 				mIsTimerRunning = false;
         }
 

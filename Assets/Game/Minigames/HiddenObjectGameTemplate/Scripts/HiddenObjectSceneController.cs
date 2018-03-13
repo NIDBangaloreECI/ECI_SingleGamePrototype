@@ -23,6 +23,8 @@ namespace com.nidb.games.hiddenobjectgame
 		[SerializeField]
 		private CountdownTimerScript _countdownTimer;
 		[SerializeField]
+		private Text _txtStatus;
+		[SerializeField]
 		private float[] _timeRemainingTargets;
 		[SerializeField]
 		private Transform _validObjectsRoot;
@@ -75,10 +77,12 @@ namespace com.nidb.games.hiddenobjectgame
 						if(newObj != null)
 							_menuSlots[menuItemId].SetObject(newObj);
 						mObjectsFound++;
+						UpdateStatus();
 						CheckGameOver();
 					};
 				}
 			}
+			UpdateStatus();
 		}
 		
 		private void CheckGameOver()
@@ -93,6 +97,11 @@ namespace com.nidb.games.hiddenobjectgame
 			{
 				DoGameOver ();
 			}
+		}
+
+		private void UpdateStatus()
+		{
+			_txtStatus.text = mObjectsFound + " / " + mTotalObjects;
 		}
 
 		private void TimerUpdate(float timeLeft)
