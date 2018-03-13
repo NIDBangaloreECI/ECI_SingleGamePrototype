@@ -18,5 +18,5 @@ MonoBehaviour:
     _description: 
   - _name: Voter Registration
     _sceneName: Episode01_Main
-    _icon: {fileID: 21300000, guid: f365e3ddb4d693749afe3eef642c232e, type: 3}
+    _icon: {fileID: 21300000, guid: c2eb4b737cb318d4c980624deaa95271, type: 3}
     _description: 
