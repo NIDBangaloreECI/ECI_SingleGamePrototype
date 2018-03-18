@@ -3135,14 +3135,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _randomize: 1
   _menuSlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 114103332979916436}
+  - {fileID: 114188169796951384}
+  - {fileID: 114238992184548866}
+  - {fileID: 114428751007442656}
   _gameOverScreen: {fileID: 224736614615182318}
-  _hintsButton: {fileID: 0}
+  _hintsButton: {fileID: 114803086668000116}
   _countdownTimer: {fileID: 114024384234752880}
-  _txtStatus: {fileID: 0}
+  _txtStatus: {fileID: 114479085486484364}
   _timeRemainingTargets:
   - 0
   - 30
