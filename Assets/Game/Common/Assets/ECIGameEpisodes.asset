@@ -20,7 +20,7 @@ MonoBehaviour:
     _sceneName: Episode01_Main
     _icon: {fileID: 21300000, guid: c2eb4b737cb318d4c980624deaa95271, type: 3}
     _description: 
-  - _name: RunnerTemplateTest
+  - _name: Runner Template TEST
     _sceneName: EndlessRunnerScene
     _icon: {fileID: 21300000, guid: c2eb4b737cb318d4c980624deaa95271, type: 3}
     _description: 
