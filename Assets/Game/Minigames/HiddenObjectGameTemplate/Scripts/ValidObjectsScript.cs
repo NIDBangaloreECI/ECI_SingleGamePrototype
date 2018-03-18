@@ -17,6 +17,9 @@ namespace com.nidb.games.hiddenobjectgame
 		private Sprite _menuIcon;
 		[SerializeField]
 		private string _name;
+		[SerializeField]
+		[Tooltip("Points awarded when player finds this object")]
+		private int _score = 1;
 
 
 		[SerializeField]
@@ -30,6 +33,7 @@ namespace com.nidb.games.hiddenobjectgame
 
 		public Sprite pMenuIconSprite { get { return _menuIcon; } }
 		public string pName { get { return (string.IsNullOrEmpty(_name) ? gameObject.name : _name); } }
+		public int pScore { get { return _score; } }
 
 		public event ObjectFoundListener pObjectFound
 		{
