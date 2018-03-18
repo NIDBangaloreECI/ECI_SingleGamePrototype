@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 114024384234752880}
   - component: {fileID: 114610046238219038}
   m_Layer: 5
-  m_Name: PfHiddenObjectGame
+  m_Name: PfMiniGameHiddenObjectEp01
   m_TagString: HoGGameCanvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2557,6 +2557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114241251874079604}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -2573,6 +2574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114920819231692288}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -2738,6 +2740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114367602586524714}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -2980,6 +2983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114345865269828350}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -3337,6 +3341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114551817602751918}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -3449,6 +3454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114516609071159472}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -3566,6 +3572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114083762757177174}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -3730,6 +3737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114008452798365048}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -4084,6 +4092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114901056676516380}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -4268,6 +4277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114035517132170854}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -4406,6 +4416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114668778502216852}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -4636,6 +4647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114739763488520514}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -5031,6 +5043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114607280211554704}
   _blinkFrequency: 0.5
   _blinkDuration: 2
@@ -5214,6 +5227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuIcon: {fileID: 0}
   _name: 
+  _score: 1
   _blinkImage: {fileID: 114094944276700476}
   _blinkFrequency: 0.5
   _blinkDuration: 2

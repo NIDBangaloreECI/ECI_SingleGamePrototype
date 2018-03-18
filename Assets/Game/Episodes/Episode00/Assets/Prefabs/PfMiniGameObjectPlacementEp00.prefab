@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 114511157555951446}
   - component: {fileID: 114776873176458064}
   m_Layer: 5
-  m_Name: PfObjectPlacementGameCanvas
+  m_Name: PfMiniGameObjectPlacementEp00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
